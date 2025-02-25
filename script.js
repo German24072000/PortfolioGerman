@@ -167,9 +167,9 @@ const mediaQuery = window.matchMedia('(max-width: 1000px)');
 
 function handleMediaChange(event) {
   if (event.matches) {
-    imgAvatar.src = "img/img_avatar_ordenador_small.jpg";
+    imgAvatar.src = "img/img_avatar_ordenador_small.png";
   } else {
-    imgAvatar.src = "img/img_avatar.jpg";
+    imgAvatar.src = "img/img_avatar.png";
   }
 }
 
