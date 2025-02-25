@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Germán</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/90f8c194ab.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <section class="container_image_cover">
+            <div class="dominant-container">
+                <div class="container_img_principalTitles">
+                    <div class="photo_frame">
+                        <img src="img/img_avatar.jpg" alt="imagen de Germán Alejandro Lara Lozada">
+                        <!-- <div style="background-color: blue;width: 315px; height: 420px;"></div> -->
+                    </div>
+                    <div id="containerTitleSubtitle">
+                        <div>
+                            <h1>Germán Alejandro Lara Lozada</h1>
+                            <h2><strong>Programador Web Junior</strong></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sectionNav">
+            <nav class="dominant-container">
+                <div id="containerBtnSideNav">
+                    <button id="btnSideNav">
+                        <div class="bar1"></div>
+                        <!-- <div class="bar2"></div> -->
+                        <div class="bar3"></div>
+                    </button>
+                </div>
+                <ul>
+                    <li><button class="btnNavigation"><a href="#containerAboutMe">Sobre mí</a></button></li>
+                    <li><button class="btnNavigation"><a href="#containerExpLaboral">Experiencia</a></button></li>
+                    <li><button class="btnNavigation"><a href="#containerProyectos">Proyectos</a></button></li>
+                    <li><button class="btnNavigation"><a href="#containerTitulaciones">Estudios</a></button></li>
+                    <li><button class="btnNavigation"><a href="#containerTecnologias">Tecnologías</a></button></li>
+                </ul>
+            </nav>
+        </section>
+
+    </header>
+
+
+
+    <main>
+        <section class="dominant-container">
+            <div id="containerAboutMe">
+                <h3>Sobre mí</h3>
+                <p>Soy un programador web junior enfocado en la creación de páginas webs con ganas de trabajar para aportar mis conocimientos, aprender y adquirir experiencia.</p>
+                <div id="containerIcons">
+
+                    <a href="https://www.linkedin.com/in/german-lara-4660a9244/" target="_blank">
+                        <img id="iconLinkedin" src="img/icon_linkedin_black.svg" alt="icon linkedin black like direction">
+                    </a>
+
+                    <a href="https://github.com/German24072000" target="_blank"><img id="iconGithub" src="img/icon_github_empty.svg" alt=""></a>
+                    
+                    
+                    <a href="mailto:german24lara07@gmail.com"><button id="btnContactame">
+                        <i id="iconSend" class="fa-regular fa-paper-plane"></i><span>Contáctame</span>
+                    </button></a>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="dominant-container">
+            <div id="containerExpLaboral">
+                <h3>Experiencia Laboral</h3>
+                <p>Octubre 2022 - Noviembre 2024</p>
+                <div class="accordion">
+                    <div class="titleAndIcon_accordion">
+                        <i class="fa-solid fa-chevron-right"></i> <h4>Faythe Consulting S.L.</h4>
+                    </div>
+                    <div class="content_accordion">
+                        <p>Maqueté las páginas web de una aplicación web con HTML, CSS y Javascript. Desarrollé funcionalidades específicas de una aplicación web de gestión de jornada laboral modificando el Frontend con Angular y en el Backend edité los diferentes endpoints con Java y sentencias SQL con MyBatis.
+
+                            Maqueté el diseño de las diferentes páginas de una aplicación web de gestión de hoteles con React.
+                            Elaboración de test unitarios con JUnit</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="containerExpPracticas">
+                <h3>Experiencia en prácticas</h3>
+                <p>Marzo 2022 - Mayo 2022 </p>
+                <div class="accordion">
+                    <div class="titleAndIcon_accordion">
+                        <i class="fa-solid fa-chevron-right"></i> <h4>NTT DATA</h4>
+                    </div>
+                    <div class="content_accordion">
+                        <p>Trabajé en un proyecto en el que aprendí la arquitectura creada por un Banco, analizaba como algunas de sus aplicaciones fueron construidas con la arquitectura e hice el diseño y funcionamiento de algunos programas.</p>
+                    </div>
+                </div>
+
+                <p>Marzo 2021 - Junio 2021 </p>
+                <div class="accordion">
+                    <div class="titleAndIcon_accordion">
+                        <i class="fa-solid fa-chevron-right"></i> <h4>Faythe Consulting S.L.</h4>
+                    </div>
+                    <div class="content_accordion">
+                        <p>Desarrollé solluciones Frontend con el framework Primefaces y programé soluciones Backend con Java para una aplicación web de un cliente.
+                            Maqueté algunos diseños de la página web de un cliente con CSS.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="dominant-container">
+            
+            <div id="containerProyectos">
+                <h3>Proyectos</h3>
+                <div id="gridCardsProyectos">
+                    <div class="tarjetaPy">
+                        <a target="_blank" href="https://uni-prodigital.es/prodigital-api/rest/inicio">
+                            <div id="backgroundImgProdigital">
+                                <img src="img/img_Prodigital.png" alt="">
+                            </div>
+                            <div class="containerTitlePy">
+                                <h4>Prodigital</h4>
+                            </div>                   
+                        </a>
+                    </div>
+
+                    <div class="tarjetaPy">
+                        <a target="_blank" href="https://www.faytheconsulting.com/faytime/">
+                            <div id="backgroundImgFaytime">
+                                <img src="img/img_Faytime.jpg" alt="">
+                            </div>
+                            <div class="containerTitlePy">
+                                <h4>Faytime</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="dominant-container">
+            <div id="containerTitulaciones">
+                <h3>Titulaciones</h3>
+                    <div id="containerInfoTitulaciones">
+                        <div>
+                            <p>Enero 2025 - Actualidad</p>
+                            <h4>DESARROLLO DE APLICACIONES CON TECNOLOGÍAS WEB (IFCD0210)</h4>
+                        </div>
+                        <div>
+                            <p>Septiembre 2021 - Junio 2022</p>
+                            <h4>Técnico Superior - DESARROLLO DE APLICACIONES WEB</h4>
+                        </div>
+                        <div>
+                            <p>Septiembre 2019 - Junio 2021</p>
+                            <h4>Técnico Superior - DESARROLLO DE APLICACIONES MULTIPLATAFORMA
+                            </h4>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        <section class="dominant-container">
+            <div id="containerTecnologias">
+                <h3>Tecnologías</h3>
+                <div id="containerGridTecnologias">
+                    <div class="containerWithIconTecnologiaYPuntuacion">
+                        <div id="div_html">
+                             <img class="iconTecnologia" src="img/icon_html.svg" alt="">
+                            <div class="border_progressBar">
+                                <div class="progressBar"></div>
+                            </div>
+                        </div>
+                        <p class="score">0%</p>
+                    </div>
+                    <div class="containerWithIconTecnologiaYPuntuacion">
+                        <div id="div_css">
+                             <img class="iconTecnologia" src="img/icon_css.svg" alt="">
+                            <div class="border_progressBar">
+                                <div class="progressBar"></div>
+                            </div>
+                        </div>
+                        <p class="score">0%</p>
+                    </div>
+                    <div class="containerWithIconTecnologiaYPuntuacion">
+                        <div id="div_javascript">
+                             <img class="iconTecnologia" src="img/icon_javascript.svg" alt="">
+                            <div class="border_progressBar">
+                                <div class="progressBar"></div>
+                            </div>
+                        </div>
+                        <p class="score">0%</p>
+                    </div>
+                    <div class="containerWithIconTecnologiaYPuntuacion">
+                        <div id="div_angular">
+                            <img class="iconTecnologia" src="img/icon_angular.svg" alt="">
+                            <div class="border_progressBar">
+                                <div class="progressBar"></div>
+                            </div>
+                        </div>
+                        <p class="score">0%</p>
+                    </div>
+                    <div class="containerWithIconTecnologiaYPuntuacion">
+                        <div id="div_react">
+                            <img class="iconTecnologia" src="img/icon_react.svg" alt="">
+                            <div class="border_progressBar">
+                                <div class="progressBar"></div>
+                            </div>
+                        </div>
+                        <p class="score">0%</p>
+                    </div>
+                    <div class="containerWithIconTecnologiaYPuntuacion">
+                        <div id="div_eclipse">
+                            <img class="iconTecnologia" src="img/icon_eclipse.svg" alt="">
+                            <div class="border_progressBar">
+                                <div class="progressBar"></div>
+                            </div>
+                        </div>
+                        <p class="score">0%</p>
+                    </div>
+                    <div class="containerWithIconTecnologiaYPuntuacion">
+                        <div id="div_visualstudiocode">
+                            <img class="iconTecnologia" src="img/icon_visualStudioCode.svg" alt="">
+                            <div class="border_progressBar">
+                                <div class="progressBar"></div>
+                            </div>
+                        </div>
+                        <p class="score">0%</p>
+                    </div>
+                    <div class="containerWithIconTecnologiaYPuntuacion">
+                        <div id="div_git">
+                            <img class="iconTecnologia" src="img/icon_git.svg" alt="">
+                            <div class="border_progressBar">
+                                <div class="progressBar"></div>
+                            </div>
+                        </div>
+                        <p class="score">0%</p>
+                    </div>
+                    <div class="containerWithIconTecnologiaYPuntuacion">
+                        <div id="div_github">
+                            <img class="iconTecnologia" src="img/icon_github.svg" alt="">
+                            <div class="border_progressBar">
+                                <div class="progressBar"></div>
+                            </div>
+                        </div>
+                        <p class="score">0%</p>
+                    </div>
+                    <div class="containerWithIconTecnologiaYPuntuacion">
+                        <div id="div_bitbucket">
+                            <img class="iconTecnologia" src="img/icon_bitbucket.svg" alt="">
+                            <div class="border_progressBar">
+                                <div class="progressBar"></div>
+                            </div>
+                        </div>
+                        <p class="score">0%</p>
+                    </div>
+                    <div class="containerWithIconTecnologiaYPuntuacion">
+                        <div id="div_dbeaver">
+                            <img class="iconTecnologia" src="img/icon_dbeaver.svg" alt="">
+                            <div class="border_progressBar">
+                                <div class="progressBar"></div>
+                            </div>
+                        </div>
+                        <p class="score">0%</p>
+                    </div>
+                    <div class="containerWithIconTecnologiaYPuntuacion">
+                        <div id="div_sql">
+                            <img class="iconTecnologia" src="img/icon_sql.svg" alt="">
+                            <div class="border_progressBar">
+                                <div class="progressBar"></div>
+                            </div>
+                        </div>
+                        <p class="score">0%</p>
+                    </div>
+                    <div class="containerWithIconTecnologiaYPuntuacion">
+                        <div id="div_mybatis">
+                            <img class="iconTecnologia" src="img/icon_mybatis.svg" alt="">
+                            <div class="border_progressBar">
+                                <div class="progressBar"></div>
+                            </div>
+                        </div>
+                        <p class="score">0%</p>
+                    </div>
+                    <div class="containerWithIconTecnologiaYPuntuacion">
+                        <div id="div_java">
+                            <img class="iconTecnologia" src="img/icon_java.svg" alt="">
+                            <div class="border_progressBar">
+                                <div class="progressBar"></div>
+                            </div>
+                        </div>
+                        <p class="score">0%</p>
+                    </div>
+                    <div class="containerWithIconTecnologiaYPuntuacion">
+                        <div id="div_junit5">
+                            <img class="iconTecnologia" src="img/icon_junit5.svg" alt="">
+                            <div class="border_progressBar">
+                                <div class="progressBar"></div>
+                            </div>
+                        </div>
+                        <p class="score">0%</p>
+                    </div>
+                    <div class="containerWithIconTecnologiaYPuntuacion">
+                        <div id="div_figma">
+                            <img class="iconTecnologia" src="img/icon_figma.svg" alt="">
+                            <div class="border_progressBar">
+                                <div class="progressBar"></div>
+                            </div>
+                        </div>
+                        <p class="score">0%</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="dominant-container">
+            <div id="mainContainerFooter">
+                    <div>
+                        <p>Sitio web creado con:</p>
+                        <div class="containerTecnologiasUsadas">
+                            <img src="img/icon_html.svg" alt="" class="imgTecnologiaUsada">
+                            <img src="img/icon_css.svg" alt="" class="imgTecnologiaUsada">
+                            <img src="img/icon_javascript.svg" alt="" class="imgTecnologiaUsada">
+                        </div>
+                    </div>
+                    <small>&copy Sitio web creado por Germán Alejandro Lara Lozada</small>
+                
+                <button id="btnFooter"><img src="img/icon_flecha_arriba.svg" alt="" srcset=""></button>
+            </div>
+        </section>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
